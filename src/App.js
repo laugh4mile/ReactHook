@@ -18,7 +18,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    console.log('새로운 내용이 렌더링 됨', todos);
+    console.log('새로운 내용이 렌더링 됨.', todos);
   }, [todos]);
 
   return (
